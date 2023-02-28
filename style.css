@@ -1,5 +1,6 @@
 html, body {
   font-family: 'Hanken Grotesk', sans-serif;
+  background-color:  hsl(221, 100%, 96%);
 }
 
 h3 {
@@ -9,12 +10,21 @@ h3 {
   font-size: 20px;
 }
 
+.summary {
+  color:  hsl(224, 30%, 27%);
+  font-weight: 600;
+  text-align: left;
+  margin-left: 19px;
+}
+
 .container {
   display: flex;
   background-color: lightgreen;
   width: 600px;
   height: 400px;
   margin: auto;
+  border-radius: 25px;
+  margin-top: 50px;
 }
 
 .card-1 {
@@ -25,7 +35,7 @@ h3 {
 }
 
 .card-2 {
-  background-color: lightpink;
+  background-color: hsl(0, 0%, 100%);
   width: 50%;
   height: 400px;
   border-radius: 25px;
@@ -67,4 +77,73 @@ h3 {
   color:  hsl(228, 4%, 75%);
   text-align: center;
   margin-top: -10px;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+  width: 220px;
+  height: 40px;
+  background-color: hsl(0, 12%, 97%);
+  border-radius: 8px;
+}
+
+.react {
+  color: hsl(0, 100%, 67%);
+  margin-top: 9px;
+  font-weight: bold;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+  width: 220px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: hsl(39, 48%, 89%);
+}
+
+.memo {
+ color: hsl(39, 100%, 56%);
+ margin-top: 9px;
+ font-weight: bold;
+}
+
+.number-2 {
+  font-weight: 600;
+  color: hsl(221, 100%, 96%);
+}
+
+.box-3 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+  width: 220px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: hsl(160, 56%, 89%);
+}
+
+.verb {
+ color: hsl(166, 100%, 37%);
+ margin-top: 9px;
+ font-weight: bold;
+}
+
+.box-4 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+  width: 220px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: hsl(233, 41%, 92%);
+}
+
+.visu {
+ color: hsl(234, 85%, 45%);
+ margin-top: 9px;
+ font-weight: bold;
 }
