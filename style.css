@@ -87,12 +87,18 @@ h3 {
   height: 40px;
   background-color: hsl(0, 12%, 97%);
   border-radius: 8px;
+  margin-top: 18px;
 }
 
 .react {
   color: hsl(0, 100%, 67%);
   margin-top: 9px;
   font-weight: bold;
+}
+
+span {
+  font-weight: 700;
+  color: black;
 }
 
 .box-2 {
@@ -103,6 +109,7 @@ h3 {
   height: 40px;
   border-radius: 8px;
   background-color: hsl(39, 48%, 89%);
+  margin-top: 18px;
 }
 
 .memo {
@@ -124,6 +131,7 @@ h3 {
   height: 40px;
   border-radius: 8px;
   background-color: hsl(160, 56%, 89%);
+  margin-top: 18px;
 }
 
 .verb {
@@ -140,10 +148,23 @@ h3 {
   height: 40px;
   border-radius: 8px;
   background-color: hsl(233, 41%, 92%);
+  margin-top: 18px;
 }
 
 .visu {
  color: hsl(234, 85%, 45%);
  margin-top: 9px;
  font-weight: bold;
+}
+
+.button {
+  width: 230px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 25px;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  font-weight: 700;
 }
