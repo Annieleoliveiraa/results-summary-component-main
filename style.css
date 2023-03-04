@@ -88,6 +88,8 @@ h3 {
   background-color: hsl(0, 12%, 97%);
   border-radius: 8px;
   margin-top: 18px;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
 }
 
 .react {
@@ -98,7 +100,8 @@ h3 {
 
 span {
   font-weight: 700;
-  color: black;
+  color:  hsl(224, 30%, 27%);
+  margin-left: 65px;
 }
 
 .box-2 {
@@ -110,6 +113,8 @@ span {
   border-radius: 8px;
   background-color: hsl(39, 48%, 89%);
   margin-top: 18px;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
 }
 
 .memo {
@@ -132,6 +137,8 @@ span {
   border-radius: 8px;
   background-color: hsl(160, 56%, 89%);
   margin-top: 18px;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
 }
 
 .verb {
@@ -149,6 +156,8 @@ span {
   border-radius: 8px;
   background-color: hsl(233, 41%, 92%);
   margin-top: 18px;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
 }
 
 .visu {
@@ -167,4 +176,36 @@ span {
   color: white;
   background-color: hsl(224, 30%, 27%);
   font-weight: 700;
+  cursor: pointer;
+}
+
+.button:hover {
+  transition: 0.7s;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .card-2 {
+    border-radius: 0 0px 20px 20px;
+  }
+
+  .card-1 {
+    
+  }
+
+  .button {
+    margin-top: 8px;
+  }
 }
