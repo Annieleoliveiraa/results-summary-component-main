@@ -82,8 +82,8 @@ h3 {
 .box-1 {
   display: flex;
   justify-content: space-around;
-  margin-left: 30px;
-  width: 220px;
+  margin-left: 20px;
+  width: 250px;
   height: 40px;
   background-color: hsl(0, 12%, 97%);
   border-radius: 8px;
@@ -107,8 +107,8 @@ span {
 .box-2 {
   display: flex;
   justify-content: space-around;
-  margin-left: 30px;
-  width: 220px;
+  margin-left: 20px;
+  width: 250px;
   height: 40px;
   border-radius: 8px;
   background-color: hsl(39, 48%, 89%);
@@ -131,8 +131,8 @@ span {
 .box-3 {
   display: flex;
   justify-content: space-around;
-  margin-left: 30px;
-  width: 220px;
+  margin-left: 20px;
+  width: 250px;
   height: 40px;
   border-radius: 8px;
   background-color: hsl(160, 56%, 89%);
@@ -150,8 +150,8 @@ span {
 .box-4 {
   display: flex;
   justify-content: space-around;
-  margin-left: 30px;
-  width: 220px;
+  margin-left: 20px;
+  width: 250px;
   height: 40px;
   border-radius: 8px;
   background-color: hsl(233, 41%, 92%);
@@ -167,10 +167,10 @@ span {
 }
 
 .button {
-  width: 230px;
+  width: 250px;
   height: 40px;
-  margin-top: 40px;
-  margin-left: 25px;
+  margin-top: 45px;
+  margin-left: 20px;
   border-radius: 16px;
   border: none;
   color: white;
@@ -184,28 +184,14 @@ span {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-.attribution {
-  font-size: 14px;
-  text-align: center;
-}
-
 @media (max-width: 600px) {
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
   }
 
   .card-2 {
-    border-radius: 0 0px 20px 20px;
-  }
-
-  .card-1 {
-    
-  }
-
-  .button {
-    margin-top: 8px;
+    min-height: 100%;
   }
 }
