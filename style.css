@@ -185,6 +185,10 @@ span {
 }
 
 @media (max-width: 600px) {
+   body {
+    overflow-x: hidden;
+   }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -193,5 +197,6 @@ span {
 
   .card-2 {
     min-height: 100%;
+  
   }
 }
